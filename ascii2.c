@@ -9,6 +9,7 @@ int main() {
 	printf("CAR  HEX  DEC\n");
 	n='Z'-'A';
 	for (i=n;i>=0;i--) {
+		printf("%c    %x   %d\n",c+32,c+32,c+32);
 		c='A'+i;
 		printf("%c    %x   %d\n",c,c,c);
 	}
